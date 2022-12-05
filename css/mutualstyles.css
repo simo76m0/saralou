@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "text";
+  src: url("../font/astralaga_regular-webfont.woff") format(".woff");
+}
+
+h1,
+p {
+  font-family: "text";
+}
