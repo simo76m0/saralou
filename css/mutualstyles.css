@@ -4,6 +4,43 @@
 }
 
 h1,
-p {
+p,
+li {
   font-family: "text";
+}
+
+h1 {
+  text-align: right;
+  font-size: 60px;
+}
+
+body {
+  background-color: #e9e7e6;
+}
+
+header {
+  background-color: #d3c8b6;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul a {
+  color: #343031;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #343031;
+}
+
+footer p,
+a,
+address {
+  color: #c5c0bc;
+  justify-content: right;
 }
