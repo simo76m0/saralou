@@ -12,7 +12,9 @@ html {
 
 h1,
 p,
-li {
+li,
+address,
+.sl-logo {
   font-family: "text";
 }
 
@@ -40,17 +42,6 @@ ul a {
   color: var(--footer);
   text-decoration: none;
 }
-
-/* footer {
-  background-color: #343031;
-}
-
-footer p,
-a,
-address {
-  color: var(--textfarve);
-  justify-content: right;
-} */
 
 footer * {
   margin: 0;
