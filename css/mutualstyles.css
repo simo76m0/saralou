@@ -3,6 +3,13 @@
   src: url("../font/astralaga_regular-webfont.woff") format(".woff");
 }
 
+html {
+  --navigation: #d3c8b6;
+  --textOgFooter: #c5c0bc;
+  --textIFooter: #c5c0bc;
+  --baggrundsfarve: #e9e7e6;
+}
+
 h1,
 p {
   font-family: "text";
