@@ -60,7 +60,7 @@ footer * {
 
 .container {
   max-width: 1170px;
-  background-color: #343031;
+  background-color: var(--footer);
   margin: auto;
 }
 
@@ -70,17 +70,17 @@ footer * {
 }
 
 .footer {
-  background-color: #343031;
+  background-color: var(--footer);
   padding: 70px 0;
 }
 
 .footer-col {
-  color: white;
+  color: var(--textfarve);
   width: 25%;
   padding: 0 15px;
   text-decoration: none;
 }
 
 .footer-col .some a {
-  color: white;
+  color: var(--textfarve);
 }
