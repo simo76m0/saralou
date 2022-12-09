@@ -4,10 +4,10 @@
 }
 
 html {
-  --navigation: #d3c8b6;
-  --textOgFooter: #c5c0bc;
-  --textIFooter: #c5c0bc;
+  --header: #d3c8b6;
+  --textfarve: #c5c0bc;
   --baggrundsfarve: #e9e7e6;
+  --footer: #343031;
 }
 
 h1,
@@ -22,11 +22,11 @@ h1 {
 }
 
 body {
-  background-color: #e9e7e6;
+  background-color: var(--baggrundsfarve);
 }
 
 header {
-  background-color: #d3c8b6;
+  background-color: var(--header);
   padding: 5px;
 }
 
@@ -37,17 +37,17 @@ ul {
 }
 
 ul a {
-  color: #343031;
+  color: var(--footer);
   text-decoration: none;
 }
 
 footer {
-  background-color: #343031;
+  background-color: var(--footer);
 }
 
 footer p,
 a,
 address {
-  color: #c5c0bc;
+  color: var(--textfarve);
   justify-content: right;
 }
