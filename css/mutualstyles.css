@@ -3,6 +3,13 @@
   src: url("../font/astralaga_regular-webfont.woff") format(".woff");
 }
 
+html {
+  --header: #d3c8b6;
+  --textfarve: #c5c0bc;
+  --baggrundsfarve: #e9e7e6;
+  --footer: #343031;
+}
+
 h1,
 p,
 li {
@@ -15,11 +22,11 @@ h1 {
 }
 
 body {
-  background-color: #e9e7e6;
+  background-color: var(--baggrundsfarve);
 }
 
 header {
-  background-color: #d3c8b6;
+  background-color: var(--header);
   padding: 5px;
 }
 
@@ -30,17 +37,55 @@ ul {
 }
 
 ul a {
-  color: #343031;
+  color: var(--footer);
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* footer {
   background-color: #343031;
+=======
+footer {
+  background-color: var(--footer);
+>>>>>>> 68d231df82b5d9f98bab165df5ab18642e607331
 }
 
 footer p,
 a,
 address {
-  color: #c5c0bc;
+  color: var(--textfarve);
   justify-content: right;
 } */
+
+footer * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  background-color: #343031;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #343031;
+  padding: 70px 0;
+}
+
+.footer-col {
+  color: white;
+  width: 25%;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.footer-col .some a {
+  color: white;
+}
