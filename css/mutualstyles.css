@@ -1,6 +1,6 @@
 @font-face {
   font-family: "text";
-  src: url("../font/astralaga_regular-webfont.woff") format(".woff");
+  src: url("../font/astralaga_regular-webfont.woff") format("woff");
 }
 
 html {
@@ -41,8 +41,8 @@ ul a {
   text-decoration: none;
 }
 
-footer {
-  background-color: var(--footer);
+/* footer {
+  background-color: #343031;
 }
 
 footer p,
@@ -50,4 +50,37 @@ a,
 address {
   color: var(--textfarve);
   justify-content: right;
+} */
+
+footer * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  background-color: var(--footer);
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: var(--footer);
+  padding: 70px 0;
+}
+
+.footer-col {
+  color: var(--textfarve);
+  width: 25%;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.footer-col .some a {
+  color: var(--textfarve);
 }
