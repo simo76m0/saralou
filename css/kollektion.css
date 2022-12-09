@@ -23,3 +23,7 @@ img {
 .container {
   display: flex;
 }
+
+.p {
+  align-items: center;
+}
