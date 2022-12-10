@@ -20,7 +20,8 @@ li {
 
 h2,
 p,
-address {
+address,
+button {
   font-family: "Playfair Display";
 }
 .active {
