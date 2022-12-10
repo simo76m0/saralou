@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  width: 1100px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about {
+  width: 100%;
+  padding: 78px 0px;
+}
+
+.about img {
+  height: auto;
+  width: 420px;
+}
+
+.about-text {
+  width: 550px;
+  background-color: #c5c0bc;
+  margin: 10px;
+  padding: 10px;
+}
