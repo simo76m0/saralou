@@ -26,3 +26,7 @@
   margin: 10px;
   padding: 10px;
 }
+
+.main-img {
+  place-content: end;
+}
