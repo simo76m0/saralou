@@ -44,7 +44,46 @@
   justify-content: space-around;
 }
 
-.homepage {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-section {
+  background: url(/img-jewelry/a0b435_ef98723ef2754a4b8fe332f440a084c7_mv2.webp) no-repeat left;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: white;
+  padding: 150px;
+}
+
+.inner-container h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 13px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+/* .homepage {
   width: 100%;
   padding: 78px 0px;
 }
@@ -54,13 +93,17 @@
   width: 420px;
 }
 
-.homepage-text {
-  width: 550px;
+.homepage-text p {
+  width: 600px;
   background-color: #c5c0bc;
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
+}
+
+.homepage-text button {
+  padding: 15px;
 }
 
 .main-img {
   place-content: end;
-}
+} */
