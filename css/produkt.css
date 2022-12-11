@@ -1,0 +1,21 @@
+@media (max-width: 1280px) {
+  .grid-1-1-1 {
+    display: flex;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .img-1 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: auto;
+  }
+
+  .img-2 {
+    width: 5%;
+  }
+
+  .img-3 {
+    width: 5%;
+  }
+}

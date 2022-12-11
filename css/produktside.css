@@ -1,0 +1,45 @@
+html {
+  --header: #d3c8b6;
+  --footerText: #c5c0bc;
+  --baggrundsfarve: #e9e7e6;
+  --textOgFooter: #343031;
+}
+
+.col-1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 0.5fr;
+  padding: 50px;
+  max-width: 800px;
+}
+.row-4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr;
+  gap: 20px;
+  margin-left: 40px;
+}
+
+button {
+  background-color: var(--header);
+  border: none;
+  color: var(--textOgFooter);
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.size {
+  background-color: white;
+}
+
+.beskrivelse {
+  color: var(--footerText);
+}
+
+h2 {
+  margin: 0;
+}

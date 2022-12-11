@@ -1,21 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+/* skriv "Playfair Display" til text */
+
 @font-face {
-  font-family: "text";
+  font-family: "astralaga";
   src: url("../font/astralaga_regular-webfont.woff") format("woff");
 }
 
 html {
   --header: #d3c8b6;
-  --textfarve: #c5c0bc;
+  --footerText: #c5c0bc;
   --baggrundsfarve: #e9e7e6;
-  --footer: #343031;
+  --textOgFooter: #343031;
+  --active: ;
 }
 
-h1,
+li {
+  font-family: "astralaga";
+}
+
+h2,
 p,
-li,
 address,
-.sl-logo {
-  font-family: "text";
+button {
+  font-family: "Playfair Display";
+}
+.active {
+  font-weight: bolder;
+}
+
+.logo {
+  font-family: "astralaga";
+  text-decoration: none;
+  color: var(--textOgFooter);
 }
 
 h1 {
@@ -37,6 +53,8 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  padding: 5px;
+  margin: 0% !important;
 }
 
 ul a {
@@ -52,7 +70,7 @@ footer * {
 
 .container {
   max-width: 1170px;
-  background-color: var(--footer);
+  background-color: var(--textOgFooter);
   margin: auto;
 }
 
@@ -62,17 +80,17 @@ footer * {
 }
 
 .footer {
-  background-color: var(--footer);
+  background-color: var(--textOgFooter);
   padding: 70px 0;
 }
 
 .footer-col {
-  color: var(--textfarve);
+  color: var(--footerText);
   width: 25%;
   padding: 0 15px;
   text-decoration: none;
 }
 
 .footer-col .some a {
-  color: var(--textfarve);
+  color: var(--footerText);
 }
