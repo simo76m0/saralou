@@ -1,4 +1,29 @@
-* {
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1cm;
+  }
+
+  /* .grid_1-1 img {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    max-width: 100%;
+  } */
+
+  .grid_1-1 h2 {
+    grid-column: 2/3;
+  }
+
+  .grid_1-1 p {
+    grid-column: 2/3;
+  }
+
+  .col-order {
+    order: -1;
+  }
+}
+/* * {
   box-sizing: border-box;
 }
 .main {
@@ -29,4 +54,4 @@
 
 .main-img {
   place-content: end;
-}
+} */
