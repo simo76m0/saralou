@@ -3,7 +3,7 @@ form {
   padding: 2rem;
   /* background: #d3c8b6; */
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #d3c8b6;
 }
 
 label,
@@ -26,7 +26,6 @@ input {
 
 /* Global styles */
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -83,15 +82,5 @@ section header p {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 10px;
-}
-
-.p {
-  align-items: center;
-}
-
-.grid2 {
-  display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 10px;
 }
