@@ -12,11 +12,12 @@ img {
 .flex_col {
   display: flex;
   flex-direction: column;
+  /* font-family: "Playfair Display"; */
 }
 
 button {
   height: 50px;
-  width: 450px;
+  width: 100%;
   font-size: 18px;
   font-weight: bold;
   color: #e9e7e6;
@@ -24,6 +25,33 @@ button {
   cursor: pointer;
 }
 
-h3 {
+h2 {
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  img {
+    width: 100%;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  button {
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e9e7e6;
+    background: #343031;
+    cursor: pointer;
+  }
+
+  h2 {
+    text-align: center;
+  }
 }
