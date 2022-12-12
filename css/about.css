@@ -13,11 +13,12 @@ img {
     margin-bottom: 0;
     text-align: center;
     gap: 30px;
+    font-family: "Playfair Display";
 }
-
 main{
   background-color: #e9e7e6;
   padding: 20px;
+
 }
   * {
     box-sizing: border-box;
@@ -34,7 +35,6 @@ border-radius: 20px;
 background-color: #343031;
 place-content: center;
 text-decoration: none;
-
 color: #e9e7e6;
 
 }
