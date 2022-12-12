@@ -60,7 +60,7 @@
 .inner-container {
   width: 55%;
   float: right;
-  background-color: white;
+  background-color: #d3c8b6;
   padding: 150px;
 }
 
@@ -81,6 +81,41 @@
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+}
+
+button {
+  height: 50px;
+  width: 450px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e9e7e6;
+  background: #343031;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
+  .inner-container {
+    padding: 60px;
+  }
 }
 
 /* .homepage {
