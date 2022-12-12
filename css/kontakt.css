@@ -1,9 +1,9 @@
 /* Dine styles her */
 form {
   padding: 2rem;
-  background: #d3c8b6;
+  /* background: #d3c8b6; */
   border-radius: 8px;
-  background-color: #c5c0bc;
+  background-color: #d3c8b6;
 }
 
 label,
@@ -26,7 +26,6 @@ input {
 
 /* Global styles */
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -57,18 +56,6 @@ img {
   border-radius: 8px;
 }
 
-/* == Body styles == */
-body {
-  font-family: system-ui, sans-serif;
-  line-height: 1.6;
-}
-
-/* Header / Banner styles */
-.banner {
-  background: #5000ca22;
-  padding: 2rem;
-}
-
 /* Main styles */
 main {
   max-width: 1000px;
@@ -92,19 +79,8 @@ section header p {
   color: hsl(264 10% 40%);
 }
 
-@media (min-width: 601px) {
-  section {
-    grid-template-columns: 1fr 2fr;
-  }
-}
-
-a {
-  color: #5000ca;
-  text-decoration: none;
-}
-
-.logo a {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #5000ca;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
 }

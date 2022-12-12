@@ -12,7 +12,6 @@ img {
 .flex_col {
   display: flex;
   flex-direction: column;
-  /* font-family: "Playfair Display"; */
 }
 
 button {
@@ -53,5 +52,12 @@ h2 {
 
   h2 {
     text-align: center;
+  }
+  .hide {
+    display: none;
+  }
+
+  .order {
+    order: -1;
   }
 }
