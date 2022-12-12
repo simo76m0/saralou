@@ -1,32 +1,32 @@
-* {
-  box-sizing: border-box;
-}
-.main {
-  width: 1100px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.about {
+img {
   width: 100%;
-  padding: 78px 0px;
 }
 
-.about img {
-  height: auto;
-  width: 420px;
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1cm;
 }
 
-.about-text {
-  width: 550px;
-  background-color: #c5c0bc;
-  margin: 10px;
-  padding: 10px;
+.grid_1-1 img {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  max-width: 100%;
 }
 
-.main-img {
-  place-content: end;
+.grid_1-1 h2 {
+  grid-column: 2/3;
+}
+
+.grid_1-1 p {
+  grid-column: 2/3;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+
+p {
+  text-align: left;
 }

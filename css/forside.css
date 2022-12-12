@@ -60,7 +60,7 @@
 .inner-container {
   width: 55%;
   float: right;
-  background-color: white;
+  background-color: #d3c8b6;
   padding: 150px;
 }
 
@@ -83,27 +83,37 @@
   font-weight: 700;
 }
 
-/* .homepage {
-  width: 100%;
-  padding: 78px 0px;
+button {
+  height: 50px;
+  width: 450px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e9e7e6;
+  background: #343031;
+  cursor: pointer;
 }
 
-.homepage img {
-  height: auto;
-  width: 420px;
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
 }
 
-.homepage-text p {
-  width: 600px;
-  background-color: #c5c0bc;
-  margin: 0px;
-  padding: 10px;
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
 }
 
-.homepage-text button {
-  padding: 15px;
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
+  .inner-container {
+    padding: 60px;
+  }
 }
-
-.main-img {
-  place-content: end;
-} */

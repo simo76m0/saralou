@@ -10,7 +10,8 @@ html {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 0.5fr;
   padding: 50px;
-  max-width: 800px;
+  max-width: 930px;
+  margin: 0%;
 }
 .row-4 {
   display: grid;
@@ -27,6 +28,7 @@ button {
   display: inline-block;
   font-size: 16px;
   transition-duration: 0.4s;
+  padding: 0% !important;
 }
 button:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -42,4 +44,10 @@ button:hover {
 
 h2 {
   margin: 0;
+}
+
+.col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
 }
