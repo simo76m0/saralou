@@ -44,23 +44,76 @@
   justify-content: space-around;
 }
 
-.homepage {
-  width: 100%;
-  padding: 78px 0px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.homepage img {
-  height: auto;
-  width: 420px;
+.about-section {
+  background: url(/img-jewelry/a0b435_ef98723ef2754a4b8fe332f440a084c7_mv2.webp) no-repeat left;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 200px 0;
 }
 
-.homepage-text {
-  width: 550px;
-  background-color: #c5c0bc;
-  margin: 10px;
-  padding: 10px;
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #d3c8b6;
+  padding: 150px;
 }
 
-.main-img {
-  place-content: end;
+.inner-container h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 13px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+button {
+  height: 50px;
+  width: 450px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e9e7e6;
+  background: #343031;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
+  .inner-container {
+    padding: 60px;
+  }
 }
