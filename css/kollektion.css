@@ -4,9 +4,6 @@ h2 {
   font-size: 40px;
 }
 
-* {
-  box-sizing: border-box;
-}
 .column {
   flex: 30%;
   /* padding: 5px; */
@@ -15,14 +12,13 @@ h2 {
 img {
   width: 100%;
   gap: 10px;
-}
-.container {
-  display: flex;
+  margin: 10px;
 }
 
 .p {
   align-items: center;
   color: beige;
+  margin: 10px;
 }
 
 .grid {
@@ -56,3 +52,11 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* .container {
+  display: flex;
+} */
+
+/* * {
+  box-sizing: border-box;
+} */

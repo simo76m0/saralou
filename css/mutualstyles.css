@@ -95,11 +95,6 @@ footer * {
   color: var(--footerText);
 }
 
-a {
-  color: #0060b6;
-  text-decoration: none;
-}
-
 a:hover {
   color: #7d8283;
   text-decoration: none;
