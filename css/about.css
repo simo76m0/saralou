@@ -13,7 +13,7 @@ img {
     margin-bottom: 0;
     text-align: center;
     gap: 30px;
-    font-family: "Playfair Display";
+    font-family:"Playfair Display";
 }
 main{
   background-color: #e9e7e6;
@@ -29,15 +29,7 @@ main{
   gap: 20px;
  }
 
-.col1 a{
-border: solid #343031;
-border-radius: 20px;
-background-color: #343031;
-place-content: center;
-text-decoration: none;
-color: #e9e7e6;
 
-}
 .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr;
