@@ -63,9 +63,9 @@ ul a {
 }
 
 footer * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  position: center;
 }
 
 .container {
@@ -75,8 +75,8 @@ footer * {
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer {
@@ -93,11 +93,6 @@ footer * {
 
 .footer-col .some a {
   color: var(--footerText);
-}
-
-a {
-  color: #0060b6;
-  text-decoration: none;
 }
 
 a:hover {

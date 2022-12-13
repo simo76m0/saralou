@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+/* skriv "Playfair Display" til text */
+
+@font-face {
+  font-family: "astralaga";
+  src: url("../font/astralaga_regular-webfont.woff") format("woff");
+}
+
 span {
   font-family: "Playfair Display";
 }
@@ -39,8 +47,8 @@ span {
   padding: 10px 24px;
   background: #d3c8b6;
   text-decoration: none;
-  border-radius: 12px;
   font-weight: 500;
+  font-family: "Playfair Display";
 }
 
 .main {
@@ -91,7 +99,7 @@ span {
   font-weight: 700;
 }
 
-button {
+.button {
   height: 50px;
   width: 450px;
   font-size: 18px;

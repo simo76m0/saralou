@@ -5,6 +5,7 @@ img {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
 }
 
 .grid_1-1 img {
@@ -18,6 +19,10 @@ img {
 h3 {
   font-family: "Playfair Display";
   font-weight: bold;
+}
+
+h2 {
+  margin: 15px;
 }
 
 .hide {
@@ -40,6 +45,10 @@ h3 {
 
   .hide {
     display: block;
+  }
+
+  .hide-1 {
+    display: none;
   }
 }
 
