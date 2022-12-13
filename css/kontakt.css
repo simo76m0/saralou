@@ -84,3 +84,9 @@ section header p {
   grid-template-columns: 1fr 2fr;
   grid-gap: 10px;
 }
+
+@media (max-width: 601px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
