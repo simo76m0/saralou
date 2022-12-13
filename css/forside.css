@@ -1,38 +1,46 @@
-.wrapper {
-  background: url(/img-jewelry/IMG_8294.webp) no-repeat;
+span {
+  font-family: "Playfair Display";
+}
+.main-image {
+  position: relative;
+  background: url(/img-jewelry/IMG_8294.webp) no-repeat center;
   background-size: cover;
-  height: 100vh;
+  height: 600px;
+  overflow: hidden;
 }
 
-.wrapper .center {
+.container-index {
   position: absolute;
-  top: 50%;
-  left: 55%;
+  top: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.center h1 {
-  color: aliceblue;
-  font-size: 70px;
-  font-weight: bold;
-  width: 900px;
   text-align: center;
+  color: white;
 }
 
-.center .buttons {
-  margin: 35px 280px;
+.container-index h2 {
+  margin: 0;
+  font-size: 70px;
 }
 
-.buttons button {
-  height: 50px;
-  width: 150px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #e9e7e6;
-  background: #343031;
-  outline: none;
-  cursor: pointer;
-  border-radius: 25px;
+.container-index span {
+  margin: 0;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.cen {
+  margin: 20px;
+  display: block;
+}
+
+.button {
+  color: #343031;
+  padding: 10px 24px;
+  background: #d3c8b6;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
 }
 
 .main {
