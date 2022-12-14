@@ -100,3 +100,39 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* burgermenu */
+.toggle-btn {
+  font-family: "astralaga";
+  background: transparent;
+  padding: 5px;
+  border: solid 1px;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+  place-content: center;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+}
